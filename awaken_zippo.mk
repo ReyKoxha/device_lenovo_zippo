@@ -6,16 +6,17 @@
 
 $(call inherit-product, device/lenovo/zippo/device.mk)
 
-# Inherit some common RevengeOS stuff.
-$(call inherit-product, vendor/revengeos/config/common.mk)
+# Inherit some common AwakenOS stuff.
+$(call inherit-product, vendor/awaken/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
+USE_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := zippo
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_MODEL := Lenovo L78051
-PRODUCT_NAME := revengeos_zippo
+PRODUCT_NAME := awaken_zippo
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
