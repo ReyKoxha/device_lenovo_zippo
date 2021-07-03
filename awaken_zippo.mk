@@ -10,6 +10,8 @@ $(call inherit-product, device/lenovo/zippo/device.mk)
 $(call inherit-product, vendor/awaken/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 USE_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Lenovo
