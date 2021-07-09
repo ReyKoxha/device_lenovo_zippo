@@ -23,10 +23,10 @@ PRODUCT_NAME := awaken_zippo
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210505.003 7255357 release-keys" \
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210605.001 7380771 release-keys" \
     PRODUCT_NAME="zippo" \
     TARGET_DEVICE="zippo"
 
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210605.001/7380771:user/release-keys"
 
 AWAKEN_BUILD_TYPE := OFFICIAL
