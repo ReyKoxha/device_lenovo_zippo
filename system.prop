@@ -1,5 +1,2 @@
 # Camera
 ro.config.zui.region=ROW
-
-ro.spark.status=Official
-ro.spark.maintainer=Chema_F

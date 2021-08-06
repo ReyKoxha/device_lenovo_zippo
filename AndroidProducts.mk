@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_zippo.mk
+    $(LOCAL_DIR)/dot_zippo.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_zippo-user \
-    spark_zippo-userdebug \
-    spark_zippo-eng
+    dot_zippo-user \
+    dot_zippo-userdebug \
+    dot_zippo-eng
